@@ -29,6 +29,7 @@ const select = (ele)=> {return document.querySelector(ele)}
 function myMove(){
 
     const animate = select('#animate');
+    const animate2 = select('#animate2');
 
  
     let closeTime = null;
@@ -46,6 +47,9 @@ function myMove(){
             pos++
             animate.style.top = pos + 'px'
             animate.style.left = pos + "px"
+
+            animate2.style.top = pos + 'px'
+            animate2.style.right = pos + "px"
         }
     }
 
@@ -58,6 +62,9 @@ function myMove(){
             pos--
             animate.style.top = pos + 'px'
             animate.style.left = pos + "px"
+
+            animate2.style.top = pos + 'px'
+            animate2.style.right = pos + "px"
         }
     }
 }
