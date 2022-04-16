@@ -137,9 +137,6 @@ const select = (ele)=> {return document.querySelector(ele)}
 
 // -------
 
-// video 96
-
-// Vide0 100//
 
 
 
